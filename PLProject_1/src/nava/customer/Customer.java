@@ -30,4 +30,6 @@ public class Customer {
 
     private String NameandAddress = customer_name + customer_address + customer_city + customer_state + customer_postal;
     public String getNameandAddress() {return NameandAddress;}
+
+
 }

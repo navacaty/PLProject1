@@ -35,9 +35,9 @@ public class CustomerDB {
             customer.setcustomer_postal("27410");
 
         }
-        else{
+        else{ return String "There is no customer number " + getcustomer_id() + " in our records"
         //What would be the best way to return null??
-        }
+        ;}
         //How do we return everything??
         return
     }
