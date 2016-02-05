@@ -1,6 +1,8 @@
 package nava.customer;
 
-import java.util.ArrayList;
+import java.lang.*;
+import java.util.*;
+
 
 public class CustomerApp {
 

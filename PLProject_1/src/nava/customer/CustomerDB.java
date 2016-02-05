@@ -9,9 +9,9 @@ public class CustomerDB {
         //Creating the Customer Object
         Customer customer = new Customer();
         //Fill the Customer object with data
-        customer.setcustomer_id(customer_id);
+       // customer.setcustomer_id(customer_id);
         //Don't remember if that is the proper why to finalize the if statement
-        if (customer_id == 1001);
+        if (customer_id == 1001){
             //Should it be more generalized [customer]or cus1001 as the object.
             customer.setcustomer_name("Barbara White");
             customer.setcustomer_address("3400 Richmond Parkway #3423");
@@ -19,7 +19,7 @@ public class CustomerDB {
             customer.setcustomer_state("CT");
             customer.setcustomer_postal("06010");
         }
-        else if (customer_id == 1002){
+        else if(customer_id == 1002){
 
             customer.setcustomer_name("Karl Vang");
             customer.setcustomer_address("327 Franklin Street");
